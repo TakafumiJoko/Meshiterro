@@ -31,8 +31,12 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # ログイン機能・ユーザー登録機能の簡略化
 gem 'devise'
 
+# 画像の保存・リサイズ
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
+
+# ページング導入のための表示画像数の制限
+gem 'kaminari', '~> 1.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
