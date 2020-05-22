@@ -61,4 +61,6 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
   config.hosts << "e241b537197147a29e58aa5ba10d84c7.vfs.cloud9.ap-northeast-1.amazonaws.com"
+  
+  Refile.secret_key = '06cd61581282d9cef823bab7279b0b865424cb4e504d23e5697f275d2a65c24a3405f887d8a9baa74501135a256b8a8801d964f411a63ea6b872ce1c7731a49b'
 end
