@@ -1,24 +1,12 @@
-# README
+# Meshiterro
+お気に入りのご飯屋さんを共有するサイトです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使い方
+RubyOnRailsで作られているので、サーバーが必要です。
+ここでは比較的簡単に環境を構築できるCloud9と言うサービスの使い方を解説します。
+1.AWSに会員登録する。
+2.Cloud9のenvironmentフォルダに当アプリケーションをコピーする。
+3.カレントディレクトリをMeshiterroにして「rails s」コマンドを実行する。
+4.画面上部のPreviewタブをクリックして、「Preview Running Application」を選択する。
+5.Cloud9上でPreview画面内でサーバーとの通信が可能になり、当アプリにアクセスできます。
+6.別タブで当アプリを閲覧したい場合は、Preview画面の右上の矢印アイコンをクリックしてください。別タブでサーバーとの通信が可能になります。
